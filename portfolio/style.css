@@ -1,0 +1,125 @@
+.logo{
+    width: 250px;
+    height: 50px;
+}
+body{
+    background-color: black;
+}
+.verde{
+    background-color: rgb(109, 233, 192);
+}
+.navbar{
+    background-color: rgb(109, 233, 192);
+}
+.navbar-nav{
+    padding: 10px 120px;
+}
+.nav-item{
+    padding: 0px 10px; 
+}
+.img{
+    border-radius: 250px;
+    border: solid 2px rgb(109, 233, 192);
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.email{
+    width: 30px;
+    height: 30px;
+    opacity: 2;
+    margin-right: 3%;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+.git{
+    width: 30px;
+    height: 30px;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+.lin{
+    width: 30px;
+    height: 30px;
+    margin-right: 3%;
+    margin-top: 3%;
+}
+h5{
+    color: rgb(135, 138, 138);
+   
+}
+.descricao{
+    padding: 15px 0px ;
+}
+.texto{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.hab{
+    text-align: center;
+    margin-top: 2%;
+    padding: 10px;
+}
+.efeito-botao-botao {
+    border: none;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+    border: none !important;
+    background: none !important;
+}
+.efeito-botao-botao:hover{
+animation: bounce 1s linear;
+}
+@keyframes bounce {
+    20%, 50%, 80%, to{
+        transform: translateY(0);
+    } 
+    40%{
+        transform: translateY(-20px)
+    }
+    70%{
+    transform: translateY(-15px);
+    } 
+    90%{
+        transform: translateY(-4px);
+    }
+}
+
+.progress{
+    width: 80%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+h4{
+    margin-left: 5%;
+    font-size: 20px;
+}
+.progress-bar{
+    background-color: black;
+}
+.text-verde{
+    color: rgb(109, 233, 192);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.titulo{
+    font-weight: bolder;
+}
+.t{
+    width: 30%;
+    padding: 20px;   
+}
+.marg{
+    margin-left: 5%;
+
+}
+.tamanho{
+    width:28% !important;
+}
+.tamanho2{
+    width:29% !important;
+}
